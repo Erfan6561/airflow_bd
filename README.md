@@ -45,5 +45,5 @@
 
 ## Результаты:
 
-В файле 'flags_activity.csv'
+В файле `flags_activity.csv`
 
