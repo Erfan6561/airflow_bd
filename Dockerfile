@@ -13,6 +13,7 @@ COPY requirements.txt /requirements.txt
 
 # Установка Python пакетов
 USER airflow
+COPY requirements.txt /requirements.txt
 RUN pip install --no-cache-dir --only-binary :all: -r /requirements.txt
 
 

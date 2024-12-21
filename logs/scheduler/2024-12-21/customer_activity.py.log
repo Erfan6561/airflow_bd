@@ -1,0 +1,140 @@
+[2024-12-21T21:11:08.316+0000] {processor.py:186} INFO - Started process (PID=214) to work on /opt/airflow/dags/customer_activity.py
+[2024-12-21T21:11:08.318+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/customer_activity.py for tasks to queue
+[2024-12-21T21:11:08.323+0000] {logging_mixin.py:190} INFO - [2024-12-21T21:11:08.322+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/customer_activity.py
+[2024-12-21T21:11:08.376+0000] {logging_mixin.py:190} INFO - [2024-12-21T21:11:08.367+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/customer_activity.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/customer_activity.py", line 7, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-12-21T21:11:08.379+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/customer_activity.py
+[2024-12-21T21:11:08.430+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/customer_activity.py took 0.124 seconds
+[2024-12-21T21:11:39.259+0000] {processor.py:186} INFO - Started process (PID=510) to work on /opt/airflow/dags/customer_activity.py
+[2024-12-21T21:11:39.261+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/customer_activity.py for tasks to queue
+[2024-12-21T21:11:39.265+0000] {logging_mixin.py:190} INFO - [2024-12-21T21:11:39.264+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/customer_activity.py
+[2024-12-21T21:11:39.304+0000] {logging_mixin.py:190} INFO - [2024-12-21T21:11:39.297+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/customer_activity.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/customer_activity.py", line 7, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-12-21T21:11:39.308+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/customer_activity.py
+[2024-12-21T21:11:39.352+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/customer_activity.py took 0.103 seconds
+[2024-12-21T21:12:10.021+0000] {processor.py:186} INFO - Started process (PID=806) to work on /opt/airflow/dags/customer_activity.py
+[2024-12-21T21:12:10.023+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/customer_activity.py for tasks to queue
+[2024-12-21T21:12:10.028+0000] {logging_mixin.py:190} INFO - [2024-12-21T21:12:10.027+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/customer_activity.py
+[2024-12-21T21:12:10.060+0000] {logging_mixin.py:190} INFO - [2024-12-21T21:12:10.054+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/customer_activity.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/customer_activity.py", line 7, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-12-21T21:12:10.063+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/customer_activity.py
+[2024-12-21T21:12:10.104+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/customer_activity.py took 0.097 seconds
+[2024-12-21T21:12:40.727+0000] {processor.py:186} INFO - Started process (PID=1102) to work on /opt/airflow/dags/customer_activity.py
+[2024-12-21T21:12:40.729+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/customer_activity.py for tasks to queue
+[2024-12-21T21:12:40.736+0000] {logging_mixin.py:190} INFO - [2024-12-21T21:12:40.735+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/customer_activity.py
+[2024-12-21T21:12:40.768+0000] {logging_mixin.py:190} INFO - [2024-12-21T21:12:40.761+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/customer_activity.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/customer_activity.py", line 7, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-12-21T21:12:40.771+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/customer_activity.py
+[2024-12-21T21:12:40.807+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/customer_activity.py took 0.098 seconds
+[2024-12-21T21:13:10.988+0000] {processor.py:186} INFO - Started process (PID=1398) to work on /opt/airflow/dags/customer_activity.py
+[2024-12-21T21:13:10.989+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/customer_activity.py for tasks to queue
+[2024-12-21T21:13:10.994+0000] {logging_mixin.py:190} INFO - [2024-12-21T21:13:10.994+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/customer_activity.py
+[2024-12-21T21:13:11.031+0000] {logging_mixin.py:190} INFO - [2024-12-21T21:13:11.022+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/customer_activity.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/customer_activity.py", line 7, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-12-21T21:13:11.034+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/customer_activity.py
+[2024-12-21T21:13:11.119+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/customer_activity.py took 0.143 seconds
+[2024-12-21T21:13:41.959+0000] {processor.py:186} INFO - Started process (PID=1694) to work on /opt/airflow/dags/customer_activity.py
+[2024-12-21T21:13:41.961+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/customer_activity.py for tasks to queue
+[2024-12-21T21:13:41.966+0000] {logging_mixin.py:190} INFO - [2024-12-21T21:13:41.965+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/customer_activity.py
+[2024-12-21T21:13:42.009+0000] {logging_mixin.py:190} INFO - [2024-12-21T21:13:41.999+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/customer_activity.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/customer_activity.py", line 7, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-12-21T21:13:42.013+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/customer_activity.py
+[2024-12-21T21:13:42.081+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/customer_activity.py took 0.133 seconds
+[2024-12-21T21:14:12.976+0000] {processor.py:186} INFO - Started process (PID=1990) to work on /opt/airflow/dags/customer_activity.py
+[2024-12-21T21:14:12.978+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/customer_activity.py for tasks to queue
+[2024-12-21T21:14:12.983+0000] {logging_mixin.py:190} INFO - [2024-12-21T21:14:12.982+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/customer_activity.py
+[2024-12-21T21:14:13.025+0000] {logging_mixin.py:190} INFO - [2024-12-21T21:14:13.017+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/customer_activity.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/customer_activity.py", line 7, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-12-21T21:14:13.028+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/customer_activity.py
+[2024-12-21T21:14:13.090+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/customer_activity.py took 0.128 seconds
+[2024-12-21T21:14:43.286+0000] {processor.py:186} INFO - Started process (PID=2286) to work on /opt/airflow/dags/customer_activity.py
+[2024-12-21T21:14:43.288+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/customer_activity.py for tasks to queue
+[2024-12-21T21:14:43.292+0000] {logging_mixin.py:190} INFO - [2024-12-21T21:14:43.292+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/customer_activity.py
+[2024-12-21T21:14:43.330+0000] {logging_mixin.py:190} INFO - [2024-12-21T21:14:43.321+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/customer_activity.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/customer_activity.py", line 7, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-12-21T21:14:43.332+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/customer_activity.py
+[2024-12-21T21:14:43.393+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/customer_activity.py took 0.120 seconds
+[2024-12-21T21:15:13.569+0000] {processor.py:186} INFO - Started process (PID=2582) to work on /opt/airflow/dags/customer_activity.py
+[2024-12-21T21:15:13.571+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/customer_activity.py for tasks to queue
+[2024-12-21T21:15:13.575+0000] {logging_mixin.py:190} INFO - [2024-12-21T21:15:13.575+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/customer_activity.py
+[2024-12-21T21:15:13.622+0000] {logging_mixin.py:190} INFO - [2024-12-21T21:15:13.615+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/customer_activity.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/customer_activity.py", line 7, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-12-21T21:15:13.625+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/customer_activity.py
+[2024-12-21T21:15:13.686+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/customer_activity.py took 0.129 seconds
+[2024-12-21T21:15:44.345+0000] {processor.py:186} INFO - Started process (PID=2878) to work on /opt/airflow/dags/customer_activity.py
+[2024-12-21T21:15:44.347+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/customer_activity.py for tasks to queue
+[2024-12-21T21:15:44.352+0000] {logging_mixin.py:190} INFO - [2024-12-21T21:15:44.352+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/customer_activity.py
+[2024-12-21T21:15:44.394+0000] {logging_mixin.py:190} INFO - [2024-12-21T21:15:44.386+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/customer_activity.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/customer_activity.py", line 7, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-12-21T21:15:44.397+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/customer_activity.py
+[2024-12-21T21:15:44.457+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/customer_activity.py took 0.123 seconds

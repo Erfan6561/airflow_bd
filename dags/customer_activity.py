@@ -85,7 +85,7 @@ def load():
 
 # Определяем DAG для ETL процесса
 with DAG(
-    'ETL_Denis_Khlamov',
+    'Erfan_Abkadirov',
     default_args={
         'owner': 'airflow',
         'start_date': datetime(2023, 10, 5),
