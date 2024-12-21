@@ -1,3 +1,3 @@
 pandas
 numpy
-tqdm
+tqdm==4.67.1  
