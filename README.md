@@ -47,3 +47,4 @@
 
 В файле `flags_activity.csv`
 
+![Описание](skrin.png)
